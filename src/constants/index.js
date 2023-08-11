@@ -211,6 +211,7 @@ const projects = [
     ],
     image: todolist,
     source_code_link: "https://github.com/teanliu/todo-list",
+    heroku_demo_link: "https://todo-list-reactapplication.herokuapp.com/login",
   },
   {
     name: "online Pl",
@@ -232,6 +233,7 @@ const projects = [
     ],
     image: onlinePl,
     source_code_link: "https://github.com/teanliu/mern-project",
+    heroku_demo_link: "https://mern-project-alpha.herokuapp.com/",
   },
   {
     name: "Foodie's Paradise",
@@ -253,6 +255,7 @@ const projects = [
     ],
     image: foodie,
     source_code_link: "https://github.com/teanliu/restaurant_list",
+    heroku_demo_link: "https://restaurant-list-express.herokuapp.com/",
   },
 ];
 
