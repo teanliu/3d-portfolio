@@ -27,10 +27,16 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import NTNU from "./company/NTNU.png";
+import ac from "./company/ac.png";
+import ucla from "./company/ucla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import todolist from "./todolist.png";
+import onlinePl from "./onlinePl.png";
+import foodie from "./foodie.png"
 
 export {
   logo,
@@ -60,7 +66,13 @@ export {
   shopify,
   starbucks,
   tesla,
+  NTNU,
+  ac,
+  ucla,
   carrent,
   jobit,
   tripguide,
+  todolist,
+  onlinePl,
+  foodie
 };

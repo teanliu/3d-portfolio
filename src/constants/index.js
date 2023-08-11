@@ -16,12 +16,18 @@ import {
   figma,
   docker,
   meta,
+  NTNU,
+  ac,
+  ucla,
   starbucks,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
+  todolist,
+  onlinePl,
+  foodie,
   threejs,
 } from "../assets";
 
@@ -35,6 +41,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "project",
+    title: "Project",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -46,12 +56,12 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "Full Stack Developer",
+    icon: mobile,
   },
   {
     title: "Content Creator",
@@ -113,58 +123,42 @@ const technologies = [
     icon: docker,
   },
 ];
-
+// "#383E56"
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Terahertz Research Intern",
+    company_name: "UNITS Lab",
+    icon: NTNU,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "January 2020 - February 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built transmission and reflection models through numerical modeling on Matlab and predicted the electrical conductivity of High-entropy alloys (HEAs) thin film with an error rate within 5%.",
+      "Collaborating with cross-functional teams including system engineers and other labs to create high-accuracy sensing systems.",
+      "Employed non-contact Terahertz time-domain spectroscopy (THz-TDS) to measure HEAs",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full Stack Web Development",
+    company_name: "Alpha Camp",
+    icon: ac,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2022 - October 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using HTML, CSS, Javascript and other related technologies.",
+      "Collaborating with peers from bootcamp to create user-friendly projects.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Master of Science, Electrical and Computer Engineering",
+    company_name: "University of California, Los Angeles",
+    icon: ucla,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "September 2021 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Enrich my domain knowledge through machine learning, human computer interation, and embedded system projects",
+      "Collaborating with peers from different fields, including computer science, bisness economic, and other majors to create high-quality products.",
+      "implementing Agile methodolog and using git for version controls",
     ],
   },
 ];
@@ -198,9 +192,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ur Todolist",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based todolist that allows users to create, read, update, delete todos. Providing a convenient and efficient interface for users' needs.",
     tags: [
       {
         name: "react",
@@ -211,17 +205,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "styled-components",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: todolist,
+    source_code_link: "https://github.com/teanliu/todo-list",
   },
   {
-    name: "Job IT",
+    name: "online Pl",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for online courses. students can view and enroll in courses while teacher can create and post online courses.",
     tags: [
       {
         name: "react",
@@ -232,24 +226,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: onlinePl,
+    source_code_link: "https://github.com/teanliu/mern-project",
   },
   {
-    name: "Trip Guide",
+    name: "Foodie's Paradise",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive restaurants searching platform that allows users to search restaurants, and offers many different searching approachs to accelerate uses' searching process.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "vanillajs",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +251,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: foodie,
+    source_code_link: "https://github.com/teanliu/restaurant_list",
   },
 ];
 
