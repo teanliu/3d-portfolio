@@ -214,7 +214,7 @@ const projects = [
     heroku_demo_link: "https://todo-list-reactapplication.herokuapp.com/login",
   },
   {
-    name: "online Pl",
+    name: "Online Pl",
     description:
       "Interactive web platform empowering students to explore and enroll in diverse online courses, while instructors effortlessly create and publish their own classes.",
     tags: [
