@@ -123,7 +123,7 @@ const technologies = [
     icon: docker,
   },
 ];
-// "#383E56"
+
 const experiences = [
   {
     title: "Terahertz Research Intern",
@@ -132,9 +132,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "January 2020 - February 2021",
     points: [
-      "Built transmission and reflection models through numerical modeling on Matlab and predicted the electrical conductivity of High-entropy alloys (HEAs) thin film with an error rate within 5%.",
-      "Collaborating with cross-functional teams including system engineers and other labs to create high-accuracy sensing systems.",
-      "Employed non-contact Terahertz time-domain spectroscopy (THz-TDS) to measure HEAs",
+      "Developed transmission and reflection models in Matlab, accurately predicting electrical conductivity of HEAs' thin film with under 5% error.",
+      "Collaborated with system engineers and labs, crafting high-precision sensing systems.",
+      "Utilized Terahertz Time-Domain Spectroscopy for non-contact measurement of HEAs properties.",
     ],
   },
   {
@@ -144,9 +144,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2022 - October 2022",
     points: [
-      "Developing and maintaining web applications using HTML, CSS, Javascript and other related technologies.",
-      "Collaborating with peers from bootcamp to create user-friendly projects.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Creating and sustaining web apps with HTML, CSS, Javascript, and related technologies.",
+      "Collaborating with bootcamp peers to design user-friendly projects.",
+      "Engaging in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
@@ -156,9 +156,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "September 2021 - June 2023",
     points: [
-      "Enrich my domain knowledge through machine learning, human computer interation, and embedded system projects",
-      "Collaborating with peers from different fields, including computer science, bisness economic, and other majors to create high-quality products.",
-      "implementing Agile methodolog and using git for version controls",
+      "Expanding domain expertise via machine learning, human-computer interaction, and embedded system projects.",
+      "Engaging with peers from diverse fields such as computer science, business economics, and other disciplines to craft top-tier projects.",
+      "Executing Agile methodologies and leveraging Git for streamlined version control.",
     ],
   },
 ];
@@ -194,7 +194,7 @@ const projects = [
   {
     name: "Ur Todolist",
     description:
-      "Web-based todolist that allows users to create, read, update, delete todos. Providing a convenient and efficient interface for users' needs.",
+      "User-centric web-based todolist enabling seamless creation, management, and deletion of tasks. Delivering an intuitive interface for enhanced user efficiency and convenience.",
     tags: [
       {
         name: "react",
@@ -216,7 +216,7 @@ const projects = [
   {
     name: "online Pl",
     description:
-      "Web application that enables users to search for online courses. students can view and enroll in courses while teacher can create and post online courses.",
+      "Interactive web platform empowering students to explore and enroll in diverse online courses, while instructors effortlessly create and publish their own classes.",
     tags: [
       {
         name: "react",
@@ -238,7 +238,7 @@ const projects = [
   {
     name: "Foodie's Paradise",
     description:
-      "A comprehensive restaurants searching platform that allows users to search restaurants, and offers many different searching approachs to accelerate uses' searching process.",
+      "An extensive restaurant search platform offering users diverse search methods, expediting the search process through various approaches.",
     tags: [
       {
         name: "html",

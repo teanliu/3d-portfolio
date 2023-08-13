@@ -1,6 +1,5 @@
-import { useState } from 'react'
 import { BrowserRouter } from 'react-router-dom';
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components'
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 
 // in case in the future need this component: <Feedbacks />
 
@@ -25,4 +24,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
