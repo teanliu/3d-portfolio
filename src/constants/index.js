@@ -158,7 +158,7 @@ const experiences = [
     points: [
       "Expanding domain expertise via machine learning, human-computer interaction, and embedded system projects.",
       "Engaging with peers from diverse fields such as computer science, business economics, and other disciplines to craft top-tier projects.",
-      "Executing Agile methodologies and leveraging Git for streamlined version control.",
+      "Executing agile methodologies and leveraging git for streamlined version control.",
     ],
   },
 ];
