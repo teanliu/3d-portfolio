@@ -15,13 +15,13 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <div className="z-0">
+        <div className="relative z-0">
           <Contact />
           <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
-  )
+  );
 }
 
 export default App;
