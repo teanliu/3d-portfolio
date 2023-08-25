@@ -17,8 +17,8 @@ const Ball = (props) => {
   return (
     <mesh castShadow receiveShadow scale={2.75}>
       <OrbitControls
-        autoRotate={true}
-        autoRotateSpeed={10}
+        // autoRotate={true}
+        // autoRotateSpeed={10}
         enableZoom={false}
         maxPolarAngle={Math.PI / 2}
         minPolarAngle={Math.PI / 2}
