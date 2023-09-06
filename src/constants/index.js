@@ -29,6 +29,8 @@ import {
   onlinePl,
   foodie,
   threejs,
+  metaVerse,
+  hBuy
 } from "../assets";
 
 export const navLinks = [
@@ -191,6 +193,50 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "H&Buy E-Commerce",
+    description:
+      "Developed and deployed a feature-rich e-commerce application with robust data management through Sanity. Enhanced user experience via dynamic shopping cart, sorting, advanced filtering, and full-text search. Implemented secure Stripe Checkout and ensured responsive design for optimal usability.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hBuy,
+    source_code_link: "https://github.com/teanliu/ecommerce-next13",
+    heroku_demo_link: "https://ecommerce-next13-rouge.vercel.app/",
+  },
+  {
+    name: "JoinMetaVerse",
+    description:
+      "Designed a high-impact Single-page Application (SPA) for an immersive Metaverse web page. Achieved a 20% user experience enhancement through server-side rendering optimization. Seamlessly integrated 3D front-end components for a captivating user interface.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: metaVerse,
+    source_code_link: "https://github.com/teanliu/metaversus_next",
+    heroku_demo_link: "https://metaversus-next.vercel.app/",
+  },
   {
     name: "Ur Todolist",
     description:

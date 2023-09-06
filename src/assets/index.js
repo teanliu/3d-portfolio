@@ -37,7 +37,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import todolist from "./todolist.png";
 import onlinePl from "./onlinePl.png";
-import foodie from "./foodie.png"
+import foodie from "./foodie.png";
+import metaVerse from "./metaVerse.png";
+import hBuy from "./hBuy.png";
 
 export {
   logo,
@@ -76,5 +78,7 @@ export {
   tripguide,
   todolist,
   onlinePl,
-  foodie
+  foodie,
+  metaVerse,
+  hBuy
 };
