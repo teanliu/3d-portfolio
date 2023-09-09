@@ -41,7 +41,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] text-justify max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] text-left max-w-3xl leading-[30px]"
       >
         I'm Henry Liu, a new grad with a master's degree in Electrical and
         Computer Engineering. During my studies at National Taiwan Normal
