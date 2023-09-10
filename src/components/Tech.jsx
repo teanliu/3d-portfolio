@@ -9,7 +9,7 @@ const Tech = () => {
   return (
     <>
       <motion.div variants={textVariant()} className={styles.paddingY}>
-        <p className={styles.sectionSubText}>WHAT I HAVE LEARNED</p>
+        {/* <p className={styles.sectionSubText}>WHAT I HAVE LEARNED</p> */}
         <h2 className={styles.sectionHeadText}>Languages and Tools</h2>
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10">
