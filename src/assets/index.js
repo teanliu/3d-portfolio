@@ -31,6 +31,7 @@ import tesla from "./company/tesla.png";
 import NTNU from "./company/NTNU.png";
 import ac from "./company/ac.png";
 import ucla from "./company/ucla.png";
+import karat from "./company/karat.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -73,6 +74,7 @@ export {
   NTNU,
   ac,
   ucla,
+  karat,
   carrent,
   jobit,
   tripguide,

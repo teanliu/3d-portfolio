@@ -19,6 +19,7 @@ import {
   NTNU,
   ac,
   ucla,
+  karat,
   starbucks,
   tesla,
   shopify,
@@ -128,15 +129,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Terahertz Research Intern",
-    company_name: "UNITS Lab",
-    icon: NTNU,
-    iconBg: "#E6DEDD",
-    date: "January 2020 - February 2021",
+    title: "Software Development Engineer",
+    company_name: "Karat Labs US Inc",
+    icon: karat,
+    iconBg: "#383E56",
+    date: "October 2023 - Present",
     points: [
-      "Developed transmission and reflection models in Matlab, accurately predicting electrical conductivity of HEAs' thin film with under 5% error.",
-      "Collaborated with system engineers and labs, crafting high-precision sensing systems.",
-      "Utilized Terahertz Time-Domain Spectroscopy for non-contact measurement of HEAs properties.",
+      "Collaborate with backend and design teams to develop a blockchain web app.",
+      "Transform Figma designs into a dynamic web app, ensuring weekly updates through agile development.",
+      "Integrate various Restful APIs for enhanced user experience and accelerated development.",
+    ],
+  },
+  {
+    title: "Master of Science, Electrical and Computer Engineering",
+    company_name: "University of California, Los Angeles",
+    icon: ucla,
+    iconBg: "#E6DEDD",
+    date: "September 2021 - June 2023",
+    points: [
+      "Expanding domain expertise via machine learning, human-computer interaction, and embedded system projects.",
+      "Engaging with peers from diverse fields such as computer science, business economics, and other disciplines to craft top-tier projects.",
+      "Executing agile methodologies and leveraging git for streamlined version control.",
     ],
   },
   {
@@ -152,15 +165,15 @@ const experiences = [
     ],
   },
   {
-    title: "Master of Science, Electrical and Computer Engineering",
-    company_name: "University of California, Los Angeles",
-    icon: ucla,
+    title: "Terahertz Research Intern",
+    company_name: "UNITS Lab",
+    icon: NTNU,
     iconBg: "#E6DEDD",
-    date: "September 2021 - June 2023",
+    date: "January 2020 - February 2021",
     points: [
-      "Expanding domain expertise via machine learning, human-computer interaction, and embedded system projects.",
-      "Engaging with peers from diverse fields such as computer science, business economics, and other disciplines to craft top-tier projects.",
-      "Executing agile methodologies and leveraging git for streamlined version control.",
+      "Developed transmission and reflection models in Matlab, accurately predicting electrical conductivity of HEAs' thin film with under 5% error.",
+      "Collaborated with system engineers and labs, crafting high-precision sensing systems.",
+      "Utilized Terahertz Time-Domain Spectroscopy for non-contact measurement of HEAs properties.",
     ],
   },
 ];
