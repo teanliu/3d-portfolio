@@ -39,18 +39,20 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)}
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] text-left max-w-3xl leading-[30px]"
       >
-        I'm Henry Liu, a new grad with a master's degree in Electrical and
-        Computer Engineering. During my studies at National Taiwan Normal
-        University and University of California, Los Angeles (UCLA), I gained
-        experience in hardware and programming, particularly using Python for
-        data analysis. I also developed skills in frontend and backend
-        development, utilizing technologies such as HTML, CSS, JavaScript,
-        MongoDB, Express.js, React.js, and Node.js. My goal is to work as a
-        frontend or full stack developer, focusing on creating user-friendly
-        interfaces and enhancing overall user experiences.
+        I'm Henry Liu, a recent graduate with a Master's degree in Electrical
+        and Computer Engineering from the University of California, Los Angeles
+        (UCLA) and a Bachelor's degree in Physics from National Taiwan Normal
+        University. My academic journey has equipped me with a diverse skill set
+        spanning hardware, programming, and data analysis, particularly
+        utilizing Python. I possess proficiency in both frontend and backend
+        development, adept in technologies such as HTML, CSS, JavaScript,
+        Python, and frameworks like React and Next.js. With a keen interest in
+        creating intuitive user interfaces and optimizing user experiences, I
+        aspire to contribute as a frontend or full stack developer.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

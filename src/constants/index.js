@@ -135,9 +135,21 @@ const experiences = [
     iconBg: "#383E56",
     date: "October 2023 - Present",
     points: [
-      "Collaborate with backend and design teams to develop a blockchain web app.",
-      "Transform Figma designs into a dynamic web app, ensuring weekly updates through agile development.",
-      "Integrate various Restful APIs for enhanced user experience and accelerated development.",
+      "Built a blockchain-based web application using Next.js, Maintain UI, and Figma, enhancing accessibility via smartphone downloads.",
+      "Integrated with RainbowKit wallet for staking, and developed chat room feature through sendbird for seamless user communication.",
+      "Achieved impressive performance metrics, including a 96.4ms First Input Delay (FID) and a 0.03 Cumulative Layout Shift (CLS).",
+    ],
+  },
+  {
+    title: "Full Stack Web Development",
+    company_name: "Alpha Camp",
+    icon: ac,
+    iconBg: "#383E56",
+    date: "July 2022 - October 2022",
+    points: [
+      "Worked collaboratively with fellow bootcamp Teaching Assistants to conceptualize and develop an intuitive to-do list with smooth CRUD operations.",
+      "Established secure backend connections and implemented login authorization using JWT tokens.",
+      "Engaged in proactive participation during code reviews, offering constructive feedback to aid in the improvement of skills and projects for bootcamp participants at all levels.",
     ],
   },
   {
@@ -150,18 +162,6 @@ const experiences = [
       "Expanding domain expertise via machine learning, human-computer interaction, and embedded system projects.",
       "Engaging with peers from diverse fields such as computer science, business economics, and other disciplines to craft top-tier projects.",
       "Executing agile methodologies and leveraging git for streamlined version control.",
-    ],
-  },
-  {
-    title: "Full Stack Web Development",
-    company_name: "Alpha Camp",
-    icon: ac,
-    iconBg: "#383E56",
-    date: "July 2022 - October 2022",
-    points: [
-      "Creating and sustaining web apps with HTML, CSS, Javascript, and related technologies.",
-      "Collaborating with bootcamp peers to design user-friendly projects.",
-      "Engaging in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
