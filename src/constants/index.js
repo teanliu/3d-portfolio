@@ -135,9 +135,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "October 2023 - Present",
     points: [
-      "Built a blockchain-based web application using Next.js, Maintain UI, and Figma, enhancing accessibility via smartphone downloads.",
-      "Integrated with RainbowKit wallet for staking, and developed chat room feature through sendbird for seamless user communication.",
+      "Built a blockchain-based web application using Next.js, Mantain UI, Tailwind CSS, Redux, and Figma.",
       "Achieved impressive performance metrics, including a 96.4ms First Input Delay (FID) and a 0.03 Cumulative Layout Shift (CLS).",
+      "Ensuring regular updates through agile development methodologies and monitoring the web app transactions through Sentry.",
     ],
   },
   {
@@ -147,7 +147,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2022 - October 2022",
     points: [
-      "Worked collaboratively with fellow bootcamp Teaching Assistants to conceptualize and develop an intuitive to-do list with smooth CRUD operations.",
+      "Develop an intuitive to-do list with smooth CRUD operations.",
       "Established secure backend connections and implemented login authorization using JWT tokens.",
       "Engaged in proactive participation during code reviews, offering constructive feedback to aid in the improvement of skills and projects for bootcamp participants at all levels.",
     ],
